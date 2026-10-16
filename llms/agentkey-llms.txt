@@ -1,0 +1,34 @@
+# AgentKey
+
+> One key that connects your AI agent to web search, scraping, social media, crypto/on-chain, finance, e-commerce and business data — one subscription, zero setup.
+
+## Docs
+
+- [AgentKey](https://docs.agentkey.app/index.md): One key that connects your AI agent to the entire digital world.
+- [Quickstart](https://docs.agentkey.app/quickstart.md): Install AgentKey, connect your key, and make your first tool call in minutes.
+- [Authentication](https://docs.agentkey.app/authentication.md): How AgentKey authenticates usage with your master key.
+- [Installation](https://docs.agentkey.app/connect/install.md): Install AgentKey into any of 22 supported agents — by one-line command, a prompt, or desktop config.
+- [Supported Agents](https://docs.agentkey.app/connect/supported-agents.md): The 22 agents AgentKey supports, and how each one installs.
+- [One Unified Key](https://docs.agentkey.app/concepts/unified-key.md): A single master key for every provider.
+- [Discover → Describe → Execute](https://docs.agentkey.app/concepts/discover-describe-execute.md): The three-step model every AgentKey call follows.
+- [Subscription & Billing](https://docs.agentkey.app/concepts/subscription.md): A monthly plan with included credits, plus usage-based overage.
+- [Auto Failover](https://docs.agentkey.app/concepts/auto-failover.md): When a provider goes down, your agent keeps running.
+- [Capabilities Overview](https://docs.agentkey.app/capabilities/overview.md): Everything your agent can reach through AgentKey.
+- [Search](https://docs.agentkey.app/capabilities/search.md): Web, news, image, and LLM-context search across multiple providers.
+- [Scrape](https://docs.agentkey.app/capabilities/scrape.md): Turn any URL into clean, LLM-ready content — and bypass anti-bot pages.
+- [Social](https://docs.agentkey.app/capabilities/social.md): Real-time data across major social platforms.
+- [Crypto](https://docs.agentkey.app/capabilities/crypto.md): Market data, on-chain analytics, NFTs, DEX, wallets, and prediction markets.
+- [Finance](https://docs.agentkey.app/capabilities/finance.md): Technical indicators, commodities, and traditional market data.
+- [Business](https://docs.agentkey.app/capabilities/business.md): Company, acquisition, and entity intelligence.
+- [E-commerce](https://docs.agentkey.app/capabilities/ecommerce.md): Product search, details, and best-seller rankings.
+- [FAQ](https://docs.agentkey.app/faq.md): Common questions about AgentKey.
+- [Support](https://docs.agentkey.app/support.md): Get help and stay up to date.
+- [API Reference](https://docs.agentkey.app/api-reference/introduction.md): The four core tools that power every AgentKey workflow.
+- [Errors](https://docs.agentkey.app/api-reference/errors.md): Common error responses and how to resolve them.
+- [find_tools](https://docs.agentkey.app/api-reference/find-tools.md): Discover the right tool from natural-language intent.
+- [describe_tool](https://docs.agentkey.app/api-reference/describe-tool.md): Get a tool's parameters, per-call cost, and a ready-to-run template.
+- [execute_tool](https://docs.agentkey.app/api-reference/execute-tool.md): Run a tool by its Provider/Operation name.
+- [account](https://docs.agentkey.app/api-reference/account.md): Check remaining credits and upstream health — always free.
+
+
+This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.

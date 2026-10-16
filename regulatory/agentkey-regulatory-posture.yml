@@ -1,0 +1,42 @@
+generated: '2026-10-15'
+method: probed
+source: https://agentkey.app/privacy.html
+signals:
+  data_retention:
+    - evidence:
+        - source: https://agentkey.app/privacy.html
+          http_status: 200
+          fetched: /tmp/privacy.html
+          quote: "We retain information only as long as needed for the purposes described in §03, or as required by law."
+      section: "§07"
+      note: Retention period described, with specific limits up to twelve months for logs.
+    - evidence:
+        - source: https://agentkey.app/privacy.html
+          http_status: 200
+          fetched: /tmp/privacy.html
+          quote: "Account data is retained while your account is active."
+      section: "§07"
+      note: Account data retention.
+    - evidence:
+        - source: https://agentkey.app/privacy.html
+          http_status: 200
+          fetched: /tmp/privacy.html
+          quote: "API key hashes are retained until you revoke the key, plus a short window for audit."
+      section: "§07"
+      note: API key hash retention.
+  data_residency:
+    - evidence:
+        - source: https://agentkey.app/privacy.html
+          http_status: 200
+          fetched: /tmp/privacy.html
+          quote: "Some third-party data sources are subject to regional data‑residency restrictions."
+      section: "09"
+      note: Indicates data residency constraints for third‑party sources.
+  data_subject_request:
+    - evidence:
+        - source: https://agentkey.app/privacy.html
+          http_status: 200
+          fetched: /tmp/privacy.html
+          quote: "You have the rights listed in §10, including the right to lodge a complaint with your supervisory authority."
+      section: "10"
+      note: Provides data subject rights and how to exercise them.

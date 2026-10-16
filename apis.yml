@@ -1,23 +1,109 @@
 aid: agentkey
+
 name: AgentKey (Data API Layer)
-description: 'AgentKey (Data API Layer) is a company surfaced via the API Evangelist harvest backlog (source:
-  g2-catalog) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://agentkey.app/local-assets/site/og-cover-v3.png
+
+description: AgentKey (Data API Layer) provides a unified gateway that connects AI agents to a wide range of digital services, including social
+  media, crypto, finance, e‑commerce, and more. It offers a single API key to discover, describe, and execute actions across supported agents,
+  with built‑in capabilities like auto‑failover, subscription management, and extensive documentation. The platform aims to simplify integration
+  for developers building intelligent agents that need to interact with diverse external systems.
+
 url: https://raw.githubusercontent.com/api-evangelist/agentkey/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-15 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-15'
+
 modified: '2026-10-15'
+
 tags:
 - Company
-apis: []
+- API
+- Data
+- Integration
+- AI
+- Automation
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Spectral
+  url: rules/agentkey-rules.yml
+- type: Authentication
+  url: authentication/agentkey-authentication.yml
+- type: Conformance
+  url: conformance/agentkey-conformance.yml
+- type: LLMsTxt
+  url: llms/agentkey-llms.txt
+- type: AgentCard
+  url: a2a/agentkey-a2a.yml
+- type: WellKnown
+  url: well-known/agentkey-well-known.yml
+- type: Hosts
+  url: hosts/agentkey-hosts.yml
+- type: Vendors
+  url: vendors/agentkey-vendors.yml
+- type: DomainSecurity
+  url: security/agentkey-domain-security.yml
 - type: Website
   url: https://agentkey.app/
+- type: Documentation
+  url: https://docs.agentkey.app/
+- type: APIReference
+  url: https://docs.agentkey.app/api-reference/introduction
+- type: GettingStarted
+  url: https://docs.agentkey.app/quickstart
+- type: Pricing
+  url: https://agentkey.app/pricing.html
+- type: Blog
+  url: https://agentkey.app/blog
+- type: Support
+  url: https://docs.agentkey.app/support
+- type: TermsOfService
+  url: https://agentkey.app/terms.html
+- type: PrivacyPolicy
+  url: https://agentkey.app/privacy.html
+
+apis:
+- name: AgentKey API
+  description: Unified data API layer for AI agents, as described in the API Reference.
+  humanURL: https://docs.agentkey.app/api-reference/introduction
+  aid: agentkey:agentkey-api-2
+- aid: agentkey:agentkey-api
+  name: AgentKey (Data API Layer) API
+  description: 'AgentKey (Data API Layer) API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist
+
+    (2026-10-15); not the provider''s own document.'
+  humanURL: https://docs.agentkey.app/quickstart.md
+  baseURL: https://agentkey.app
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/agentkey-openapi-generated.yml
+    x-provenance: generated
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: The provider's documentation does not expose any OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL contracts.
+  evidence:
+  - url: https://docs.agentkey.app/api-reference/introduction
+    status: 200
+  checked: '2026-10-15'
+x-enrichment:
+  date: '2026-10-15'
+  status: enriched
+  artifacts_added: 24
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

@@ -1,0 +1,15 @@
+generated: '2026-10-15'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.agentkey.app/authentication.md
+sources:
+- https://docs.agentkey.app/authentication.md
+- https://docs.agentkey.app/quickstart.md
+description: Authentication schemes for AgentKey
+schemes:
+- type: apiKey
+  name: master key
+  evidence: AgentKey authenticates with a single **master key**.
+  how_to_obtain: Generate a key in the console.
+note: No OAuth flows or other authentication types are documented.
+docs: https://docs.agentkey.app/authentication.md

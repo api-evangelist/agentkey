@@ -1,0 +1,84 @@
+generated: '2026-10-16'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 5
+  own: 4
+  other_domain: 1
+  platform: 0
+  roles:
+  - api
+  - docs
+  - other
+  - website
+hosts:
+- host: agentkey.app
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Website
+  - Pricing
+  - Blog
+  - TermsOfService
+  - PrivacyPolicy
+  serves:
+  - api
+  registrable_domain: agentkey.app
+  role: website
+  relation: own
+- host: api.agentkey.app
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: agentkey.app
+  role: api
+  relation: own
+- host: console.agentkey.app
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: agentkey.app
+  role: other
+  relation: own
+- host: docs.agentkey.app
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - site-links
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Documentation
+  - APIReference
+  - GettingStarted
+  - Support
+  serves:
+  - docs
+  - cdn
+  - hosting
+  vendor: cloudflare
+  registrable_domain: agentkey.app
+  role: docs
+  relation: own
+- host: mintlify.com
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: mintlify.com
+  role: other
+  relation: other-domain
