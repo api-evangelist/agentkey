@@ -81,18 +81,15 @@ apis:
   description: Unified data API layer for AI agents, as described in the API Reference.
   humanURL: https://docs.agentkey.app/api-reference/introduction
   aid: agentkey:agentkey-api-2
-- aid: agentkey:agentkey-api
-  name: AgentKey (Data API Layer) API
-  description: 'AgentKey (Data API Layer) API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist
-
-    (2026-10-15); not the provider''s own document.'
-  humanURL: https://docs.agentkey.app/quickstart.md
-  baseURL: https://agentkey.app
+- aid: agentkey:agentkey-install-api
+  name: AgentKey (Data API Layer) Install API
+  description: The Install API from AgentKey (Data API Layer) — 1 operation(s) for install.
+  humanURL: https://docs.agentkey.app/api-reference/introduction
+  tags:
+  - Install
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/agentkey-openapi-generated.yml
-    x-provenance: generated
-
+    url: openapi/agentkey-install-api-openapi.yml
 x-coverage:
   state: unreadable
   reason: no-machine-readable-spec
