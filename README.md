@@ -64,5 +64,99 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AgentKey (Data API Layer) is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://agentkey.app/
+AgentKey (Data API Layer) provides a unified gateway that connects AI agents to a wide range of digital services, including social media, crypto, finance, e‑commerce, and more. It offers a single API key to discover, describe, and execute actions across supported agents, with built‑in capabilities like auto‑failover, subscription management, and extensive documentation. The platform aims to simplify integration for developers building intelligent agents that need to interact with diverse external systems.
+
+**Areas:** Company · Data · Integration · Artificial Intelligence · Automation
+
+## AgentKey (Data API Layer) on APIs.io
+
+Everything profiled for AgentKey (Data API Layer) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentkey/](https://apis.io/providers/agentkey/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [AgentKey API](https://apis.io/apis/agentkey/agentkey-api-2/) — Unified data API layer for AI agents, as described in the API Reference.
+- [AgentKey (Data API Layer) Install API](https://apis.io/apis/agentkey/agentkey-install-api/) — The Install API from AgentKey (Data API Layer) — 1 operation(s) for install.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AgentKey (Data API Layer) API Rules](https://apis.io/rules/agentkey/agentkey-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentkey Authentication](https://apis.io/security/agentkey/agentkey-authentication/)
+- [Agentkey Domain Security](https://apis.io/security/agentkey/agentkey-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentkey.app/)
+- [Documentation](https://docs.agentkey.app/)
+- [Getting started](https://docs.agentkey.app/quickstart)
+- [API reference](https://docs.agentkey.app/api-reference/introduction)
+- [Pricing](https://agentkey.app/pricing.html)
+- [Support](https://docs.agentkey.app/support)
+- [Blog](https://agentkey.app/blog)
+- [Terms of service](https://agentkey.app/terms.html)
+- [Privacy policy](https://agentkey.app/privacy.html)
+
+## API Evangelist rating
+
+**Kin Score 28.8** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 12.9 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 31.6 |
+
+**Agent readiness 36.7** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentkey/](https://apis.io/providers/agentkey/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AgentKey (Data API Layer): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentkey/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
